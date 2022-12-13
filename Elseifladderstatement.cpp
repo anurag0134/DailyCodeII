@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<iostream>
 using namespace std;
 int main()
@@ -33,3 +34,40 @@ int main()
 	}
 	return 0;
 }
+=======
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,ch,add,sub,multi,div;
+	cout<<"Enter Two Numbers:";
+	cin>>a>>b;
+	cout<<"Enter choice:";
+	cin>>ch;
+	if (ch==1)
+	{
+		add =a+b;
+		cout<<add;
+	}
+	else if (ch==2)
+	{
+		sub =a-b;
+		cout<<sub;
+	}
+	else if (ch==3)
+	{
+		multi=a*b;
+		cout<<multi;
+	}
+	else if (ch==4)
+	{
+		div =a/b;
+		cout<<div;
+	}
+	else
+	{
+		cout<<"Invalid Task";
+	}
+	return 0;
+}
+>>>>>>> 88445145bd78cc4c319ea9a170326c7ffcff4843
